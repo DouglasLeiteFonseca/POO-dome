@@ -43,15 +43,6 @@ public class Video {
 		this.setTempoDuracao(tempoDuracao);
 	}
 	public static void main(String[] args) {
-		BaseDados bd = new BaseDados();
-		Video video1 = new Video("Douglas ", "Comentario do video1 ", "Video 1", false, 400);
-		Video video2 = new Video("Douglas Rock", "Comentario do video2 ", "Video 2", false, 200);
-		Video video3 = new Video("Douglas pop", "Comentario do video3 ", "Video 3", false, 100);
-		bd.inserirVideo(video1);
-		bd.inserirVideo(video2);
-		bd.inserirVideo(video3);
-		
-		bd.listarVideos();
 		
 	}
 }
